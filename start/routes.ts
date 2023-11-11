@@ -20,6 +20,7 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
+import 'app/Controller/Http/products/Product'
 Route.get('/', async () => {
   return { hello: 'world' }
 })

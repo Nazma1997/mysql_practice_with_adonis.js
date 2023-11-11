@@ -5,5 +5,5 @@ export default class Product extends BaseModel {
   public productCode: number;
 
   @column()
-  public productname: string;
+  public productName: string;
 }
